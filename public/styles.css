@@ -1,0 +1,120 @@
+h1 {
+  font-family: "Open sans";
+}
+
+.navigation {
+  background-color: #ff0022;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white !important;
+}
+
+.navigation-brand:hover {
+  color: #04030f;
+}
+
+.custom-toggler {
+  z-index: 1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.special-offer {
+  margin-top: 0.3%;
+}
+
+.special-offer img {
+  width: 100%;
+}
+
+.main-content {
+  margin: 5% 10%;
+}
+
+.card {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  align-content: center;
+}
+
+.card-title {
+  background-color: #04030f;
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+}
+
+.card img {
+  max-width: 12rem;
+  min-height: 12rem;
+}
+
+.cart-container {
+  padding-left: 0;
+}
+
+.cart-button {
+  background-color: #ff0022;
+  color: white;
+}
+
+.prices {
+  padding-right: 0;
+}
+
+.size-selector {
+  margin-bottom: 1%;
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.quantity {
+  background-color: #04030f;
+  color: white;
+  text-align: center;
+}
+
+.plus-sign, .minus-sign {
+  background-color: #b9bab8;
+  color: #04030f;
+  border-radius: 15%;
+}
+
+.plus-sign, .minus-sign, .quantity {
+  padding: 3%;
+}
+
+.section-name {
+  font-family: "Open sans";
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.toggler {
+  background-color: #b9bab8;
+  margin-bottom: 1%;
+}
